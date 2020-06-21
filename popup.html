@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<script src="popup.js"></script>
+</script>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>SmartPay</title>
+  </head>
+  <body style="width: 450px">
+    <!-- Payment page -->
+    <div id="optimal-card" style="text-align: -webkit-center;">
+      <h1>Tadaa. Pay with this card.</h1>
+      <img src="dbs-credit.jpg" style="width: 150px; margin-top: 30px">
+      <p style="font-weight: 200;color: grey;font-size: 25px;">DBS Live Fresh</p>
+      <b style="padding-bottom: 20px">Your benefits</b>
+      <div style="border: 1px black; border-style: groove; margin: 15px 0px 30px 0px">
+          <h3>- 5% cashback<br>- No min. spending required</h3>
+      </div>
+    </div>
+    <!-- Help page -->
+    <div id="help-page" style="text-align: -webkit-center; display: none; padding-bottom: 15px">
+        <h1>How to SmartPay</h1>
+        <p>We help you choose the best credit card to maximise your credit card rewards.</p>
+        <b>Step 1:</b>
+        <p>Choose the credit cards you own</p>
+        <b>Step 2:</b>
+        <p>Find out the best credit card for your purchase</p>
+    </div>
+
+    <!-- Cards page -->
+    <div id="smartpay-cards" style="text-align: -webkit-center; display: none; padding-bottom: 15px">
+      <h1>Choose your credit cards</h1>
+      <p>Click on a card to add / remove it</p>
+      <div style="display: flex; flex-wrap: wrap; padding: 0 4px">
+        <figure id="dbs-credit" style="padding: 10px 0 5px 0">
+            <img src="dbs-credit.jpg" style="width: 100px; padding: 0 15px">
+            <figcaption>DBS Credit Card</figcaption>
+        </figure>
+        <figure id="uob-credit" style="padding: 10px 0 5px 0">
+            <img src="uob-card.png" style="width: 100px; padding: 0 15px">
+            <figcaption>UOB Credit Card</figcaption>
+        </figure>
+        <figure id="ocbc-90" style="padding: 10px 0 5px 0">
+            <img src="ocbc-90.png" style="width: 100px; padding: 0 15px">
+            <figcaption>OCBC 90&deg;</figcaption>
+        </figure>
+        <figure id="ocbc-frank" style="padding: 10px 0 5px 0">
+            <img src="ocbc-frank.png" style="width: 100px; padding: 0 15px">
+            <figcaption>OCBC Frank Card</figcaption>
+        </figure>
+      </div>
+      
+      
+    </div>
+
+    <!-- Navigation -->
+    <div>
+      <button class="far fa-credit-card" id="cards"></button>
+      <button class="far fa-question-circle" id="help"></button>
+      <button class="fas fa-home" id="home"></button>
+      <button class="fas fa-ticket-alt" id="support"></button>
+    </div>
+  </body>
+</html>
