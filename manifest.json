@@ -4,7 +4,7 @@
   "manifest_version": 2,
   "background": [
     {
-      "scripts": ["thirdParty/jquery-2.0.3.js", "background.js"],
+      "scripts": ["jquery.min.js", "background.js"],
       "persistent": false
     }
   ],
@@ -15,8 +15,13 @@
     }
   ],
   "browser_action": {
+    "default_icon": {
+      "16": "card.png",
+      "24": "card.png",
+      "32": "card.png"
+    },
     "default_popup": "popup.html",
     "default_title": "SmartPay"
-  }
-
+  },
+  "content_security_policy": "script-src 'self' https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js; object-src 'self'"
 }
