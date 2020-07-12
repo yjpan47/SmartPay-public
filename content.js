@@ -90,12 +90,12 @@ function getSelection() {
     headerElement.width = 400;
     textElement = document.createElement('h3');
     textElement.textContent = "Choose your credit cards";
-    card1 = getCard('DBS Live Fresh', 'https://i.ibb.co/kq3yJfH/ocbc-90.png');
-    card2 = getCard('UOB One', 'https://i.ibb.co/kq3yJfH/ocbc-90.png');
-    card3 = getCard('OCBC 90n', 'https://i.ibb.co/kq3yJfH/ocbc-90.png');
-    card4 = getCard('OCBC Frank', 'https://i.ibb.co/kq3yJfH/ocbc-90.png');
-    card5 = getCard('POSB Everyday', 'https://i.ibb.co/kq3yJfH/ocbc-90.png');
-    card6 = getCard('MayBank World', 'https://i.ibb.co/kq3yJfH/ocbc-90.png');
+    card1 = getCard('DBS Live Fresh', 'https://res.cloudinary.com/valuechampion/image/upload/c_limit,dpr_1.0,f_auto,h_1600,q_auto,w_1600/v1/referral_logos/sg/credit_cards/DBS_Live_Fresh_09.11.19.png');
+    card2 = getCard('UOB One', 'https://community.whatcard.sg/uploads/default/original/1X/7e7cca7c5b59efaf5227b15f6285e73cd4793d38.jpeg');
+    card3 = getCard('OCBC 90n', 'https://milelion-com0.exactdn.com/wp-content/uploads/2019/08/High-res-card-face.jpg?strip=all&lossy=0&quality=85&resize=253%2C161&ssl=1');
+    card4 = getCard('OCBC Frank', 'https://images.contentstack.io/v3/assets/bltc05b5aa7ae1c3a47/bltf0ddb12ac9efdf8d/5cbd879ac40378ef1ec253b6/OCBC%20FRANK.png');
+    card5 = getCard('POSB Everyday', 'https://s.yimg.com/ny/api/res/1.2/LE63DPxPGfoyInybUlH7Xg--/YXBwaWQ9aGlnaGxhbmRlcjtoPTY2Ng--/https://d11zeux9tyyeep.cloudfront.net/product/881/image_everyday@2x.png');
+    card6 = getCard('MayBank World', 'https://ringgitplus.com/img/card-400/519489e2193821ed4a0000ec.jpg?v4=1');
     row1 = getRow(card1, card2, card3);
     row2 = getRow(card4, card5, card6);
     tableElement = getTable(row1, row2);
